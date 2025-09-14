@@ -1,0 +1,12 @@
+.import-export-page .import-section,
+.import-export-page .export-section {
+  background: white;
+  border: 1px solid #e6eef8;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.import-export-page .download {
+  margin-top: 0.8rem;
+}
