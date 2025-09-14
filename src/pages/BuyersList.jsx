@@ -106,6 +106,10 @@ export default function BuyersList() {
       {/* Buyers Table */}
       {loading ? (
         <p>Loading...</p>
+      ) : buyers.length === 0 ? (
+        <div style={{ padding: "1rem", textAlign: "center", color: "#6b7280" }}>
+          <p>No buyers found. Try adjusting filters or add a new lead.</p>
+        </div>
       ) : (
         <table className="buyers-table">
           <thead>
