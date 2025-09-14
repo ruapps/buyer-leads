@@ -1,0 +1,44 @@
+.csv-importer input[type="file"] {
+  margin-bottom: 0.8rem;
+}
+
+.preview {
+  margin-top: 1rem;
+}
+
+.preview-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.csv-preview {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.csv-preview th,
+.csv-preview td {
+  padding: 0.4rem;
+  border: 1px solid #e2e8f0;
+}
+
+.csv-preview tr.valid {
+  background: #f0fdf4;
+}
+
+.csv-preview tr.invalid {
+  background: #fff1f2;
+}
+
+.errors {
+  color: #b91c1c;
+  margin-bottom: 0.6rem;
+}
+.success {
+  color: #14532d;
+}
+.failure {
+  color: #b91c1c;
+  white-space: pre-wrap;
+}
