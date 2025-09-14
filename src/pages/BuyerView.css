@@ -1,0 +1,46 @@
+.buyer-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.buyer-card p {
+  margin-bottom: 0.5rem;
+}
+
+.history {
+  margin-top: 2rem;
+}
+
+.history ul {
+  list-style: none;
+  padding: 0;
+}
+
+.history li {
+  background: #f9fafb;
+  border: 1px solid #e2e8f0;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.history pre {
+  background: #e2e8f0;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  overflow-x: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .buyer-card,
+  .history li {
+    font-size: 0.9rem;
+  }
+}
